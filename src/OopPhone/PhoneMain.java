@@ -22,7 +22,7 @@ public class PhoneMain {
         System.out.println(myPhone3.weight);
         System.out.println();
 
-        myPhone1.receiveCall("Mum");
-        myPhone2.receiveCall("Dad");
+        myPhone1.receiveCall("Mum", "0011234313");
+        myPhone2.receiveCall("Dad", "4543523234");
     }
 }
